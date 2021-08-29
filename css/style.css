@@ -1,0 +1,493 @@
+
+.header{
+    background-color:tomato;
+    padding-top: 1%;
+    padding-bottom:4%;
+    justify-content: space-around;
+     display: flex;
+}
+
+
+
+
+.headerIcon{
+    margin-left:20%;
+}
+.headerIcon a{
+    color: black;
+    font-size: 20px;
+    margin-left: 10px;
+ 
+    
+
+}
+.navBody{
+    margin-top: -56px;
+   
+   
+   
+        
+}
+/* .sliderBody{
+
+
+} */
+
+.navColor{
+    background-color: white !important;
+}
+
+.sliderSectoion{
+
+}
+.firstCardTitile{
+    color: coral;
+}
+.sliderImageheight{
+    height: 700px;
+}
+.info{
+    
+    margin-top: -60px;
+}
+.developmentTitle{
+    color: tomato;
+}
+
+.development h1{
+    margin-top: 10%;
+
+}
+
+.intro{
+    margin-top: 5%;
+}
+.introduction2ndCol-lg-6{
+    color: aliceblue;
+    
+    background-color: #5611a0;
+    font-family: 'Monoton', cursive;
+    padding: 0;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.introduction2ndCol-lg-6 h1{
+    font-size: 40px;
+    text-align: center;
+}
+.introduction2ndCol-lg-6 p{
+    font-family: 'Abhaya Libre', serif;
+}
+
+ .overlay{
+    position: absolute;
+    opacity: 0;
+   margin-top: -32%;
+} 
+.videoSize{
+    width: 640px;
+    height: 490px;
+}
+ .video{
+   padding: 0;
+   
+       
+     
+} 
+
+.intro1stImg{
+    visibility:visible;
+}
+ .hoverVideo:hover .overlay {
+    opacity: 1;
+    transition: 1s ease;
+      
+}
+.introduction1stCol:hover .intro1stImg {
+    opacity: 0;
+   
+    display: block;
+    visibility:visible;
+   
+} 
+.features{
+    margin-bottom: 7%;
+}
+.featureH1{
+    color: tomato;
+}
+/* .featureBorderRad{
+   
+} */
+
+.fontAwsomeIcon{
+    margin-left: 19%;
+    font-size: 100px;
+}
+
+.featuretext{
+  
+    display: none;
+}
+
+/* .featureHover:hover {
+    transform: rotateY(180deg);
+    transition: 1s ease;
+
+
+} */
+
+/* hover feature */
+.flip-card {
+    background-color: transparent;
+    /* width: 300px;
+    height: 300px; */
+    perspective: 1000px;
+  }
+  
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .flip-card-front {
+    /* background-color: #bbb; */
+    color: black;
+  }
+  
+  .flip-card-back {
+    background-color: #d86f29;
+    color: white;
+    transform: rotateY(180deg);
+  }
+
+/* project  */
+.project{
+    padding-top: 3%;
+    padding-bottom: 3%;
+    background-color:whitesmoke;
+}
+/* Work environment  */
+.envProImg1{
+    height: 170px;
+   
+}
+.envProImg2{
+    height: 170px;
+    margin-bottom: 2%;
+}
+
+.envImg3{
+    height: 180px;
+}
+
+.projectHeading{
+    margin-top: -30px;
+    text-align: center;
+    color:red;
+    font-weight: 800;
+    font-size: large;
+}
+
+.envImgHover:hover{
+    transform: scale(1.1);
+    transition: .6s ease-in;
+}
+
+.seeMore{
+    margin-top: 4%;
+    text-align: center;
+}
+.seeMoreBtn{
+    padding-left:30px;
+    padding-right: 30px;
+    margin-bottom: 3%;
+}
+
+.CustomerReview{
+    
+  background-color:#e2cbfa31;
+  margin-bottom:7%
+  
+}
+.customerReviewImgCarosel{
+    width: 50%;
+ 
+}
+
+.teamMemberTitle h2{
+    color: tomato;
+}
+.teamMemberTitle p{
+    font-size: 20px;
+    margin-bottom: 5%;
+}
+
+
+
+.teamMemberHover {
+    background-color: rgba(121, 215, 238, 0.808);
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    position: absolute;
+    padding: 70px;
+    transition: opacity .5s;
+  }
+  .teamMemberHover:hover {
+    opacity: 1;
+    transition: opacity .5s;
+  }
+
+  .teamMember{
+      margin-bottom: 5%;
+  }
+  .newUpdateIcon{
+      text-align:end;
+  }
+  .newUpdatedTitle h2{
+  color: tomato;
+  }
+  .newUpdatedTitle p{
+      font-size: 20px;
+  }
+
+  .newUpdate{
+      padding-bottom: 5%;
+      background-color: rgb(187, 185, 185);
+  }
+ 
+
+
+
+  .missonAndVission{
+    background-image: url(../images/09_mission_and_vission/01.jpg);
+    background-repeat: no-repeat;
+     /* background-attachment:fixed; */
+    
+     box-shadow:inset 0 0 0 2000px rgba(24, 221, 195, 0.3);
+  
+   width: 100%;
+   height: 600px;
+   background-size: 100% 100%;
+   
+  }
+  .missonAndVissionTitle h1{
+      color: #d86f29;
+      padding-top: 7%;
+      text-align: center;
+      font-size: 60px;
+      
+
+  }
+  .missonAndVissionTitle p{
+   color:black;
+   font-size: 20px;
+   background-color: rgb(255, 255, 255 , 0.3);
+   padding: 5%;
+  }
+
+  .requestFrom{
+      background-color :rgb(139, 172, 233)
+  }
+
+  .addressInfo{
+      margin-top: -86px;
+  }
+  .footer{
+    margin-top: -120px;
+  }
+
+  .socialMedia{
+      padding-top: 10%;
+  }
+
+  .Linkss a{
+      text-decoration: none;
+  }
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="headerIcon"] {
+        display: contents;
+        margin-right: 2%;
+       flex-wrap: wrap;
+    }
+    [class*="iconMob"] {
+       
+        margin-right: 2%;
+       
+    }
+  }
+   
+
+  @media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="sliderImageheight"]{
+        width: auto;
+        height: auto;
+
+   
+    }
+   
+  }
+  
+  @media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="addressInfo"]{
+        margin-top: 0;
+        padding-top: 5%;
+        padding-bottom: 5%;
+   
+    }
+   
+  }
+
+  @media only screen and (max-width: 768px) {
+  
+   
+  }
+
+  @media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="teamMemberImg"]{
+        width: auto;
+       height: auto;
+   
+    }
+   
+  }
+  
+  @media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="cardBodyMob"]{
+      
+        /* margin: 0%;
+        padding: 0%; */
+        display: flex;
+        align-items: center;
+
+        flex-direction: column;
+    
+   
+    }
+   
+  }
+  
+  @media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="requestFrom"]{
+        padding-bottom: 5%;
+   
+    }
+   
+  }
+
+
+  @media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="missonAndVission"]{
+        width: 100%;
+        height: 350px;
+   
+    }
+   
+  }
+
+  @media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="missonAndVissionTitle"] p{
+      font-size: 13px;
+   
+    }
+   
+  }
+
+  
+  @media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+     [class*="missonAndVissionTitle"] h1{
+      font-size: 40px;
+   
+    }
+   
+  } 
+
+
+
+  @media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="fontAwsomeIcon"] {
+        font-size: 30px;
+    }
+  }
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="info"] {
+        margin-top:5px;
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="videoHvr"] {
+       width: 100%;
+       margin-top: -240px;
+       padding-top: 5%;
+       padding-bottom: 35%;
+      
+    }
+
+  }
+
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="videoSize"] {
+        /* width: 640px;
+        height: 490px; */
+      
+    }
+
+  }
+
+  
+  @media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="introduction2ndCol-lg-6"] {
+       
+       margin-top: 15px;
+    }
+
+  }
+
+
+
+  /* @media screen and (max-width: 768px) {
+    .className{
+    
+    }
+  } */
+
+
